@@ -1,0 +1,18 @@
+by using conda requirement setup:
+conda create -p pyhon==3.12 
+conda activate venv/
+pip install ipykernel
+
+best way : conda create -p venv python==3.12 -y
+
+by using python requirement setup:
+python -m venv myenv
+myenv\Scripts\activate
+deactivate
+pip install pandas
+
+for linux :
+pip install virtualenv
+virtualenv -p python3 virtual_env
+virtual_env\Scripts\activate
+deactivate
